@@ -9,7 +9,7 @@ buildscript {
 }
 
 ext {
-    keycloakVersion = '1.2.1.Smartling-SNAPSHOT'
+    keycloakVersion = '2.5.0.Final'
     keycloakExtrasVersion = '0.3.0-RELEASE'
     resteasyVersion = '3.0.10.Final'
     springVersion = '4.1.6.RELEASE'
