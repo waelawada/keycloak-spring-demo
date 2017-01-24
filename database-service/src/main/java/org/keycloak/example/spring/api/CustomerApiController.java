@@ -26,7 +26,7 @@ public class CustomerApiController {
     private static final Logger log = LoggerFactory.getLogger(CustomerApiController.class);
 
     @RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("hasRole('ROLE_CUSTOMER_VIEW')")
+//    @PreAuthorize("hasRole('ROLE_CUSTOMER_VIEW')")
     public List<String> getCustomers(Principal principal) {
 
         log.info("Returning customer list.");

@@ -26,7 +26,7 @@ public class ProductApiController {
     private static final Logger log = LoggerFactory.getLogger(ProductApiController.class);
 
     @RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    @PreAuthorize("hasRole('ROLE_PRODUCT_VIEW')")
+//    @PreAuthorize("hasRole('ROLE_PRODUCT_VIEW')")
     public List<String> getProducts(Principal principal) {
 
         log.info("Returning product list.");
